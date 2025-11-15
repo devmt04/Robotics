@@ -9,7 +9,7 @@ import time
 # ======================
 UART_PORT = '/dev/ttyUSB0'  # Change to your port
 BAUD_RATE = 921600
-SAMPLE_RATE = 16000         # INMP441 is configured for 16kHz
+SAMPLE_RATE = 44100         # INMP441 is configured for 16kHz
 BUFFER_SIZE = 1024          # Number of samples per read
 ROLLING_SIZE = 4096         # Number of samples to display/keep
 DURATION_SEC = 5            # Total recording duration (can be ignored for continuous plotting)
